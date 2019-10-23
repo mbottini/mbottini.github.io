@@ -3,44 +3,55 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <title>Michael Bottini - Bio</title>
-  <link rel="stylesheet" href="styles.css"></link>
+    <meta charset="utf-8">
+    <title>Michael Bottini - Bio</title>
+    <link rel="stylesheet" href="styles.css"></link>
 </head>
 
 <body>
     <header id="header">
-        <p>I'm a header element!</p>
+        <a href="index.html"><button class="header-button">Bio</button></a>
+        <a href="projects.html"><button class="header-button">Projects</button></a>
+        <a href="contact.html"><button class="header-button">Contact</button></a>
     </header>
 
-    <section id="sectionbio">
-      <h1>Michael Bottini</h1> 
-      <h1>Bio</h1>
-      <p>I am a DevOps engineer currently working for the Production Kernel
-      Team inside Intel's Open-Source Technology Group. Currently, my job
-      includes the following:
+    <article>
+        <section id="sectionbio">
+            <div class="section-container">
+                <h1>Michael Bottini</h1>
+                <h2>Bio</h2>
 
-      <ul>
-          <li>Creating and maintaining build infrastucture with Jenkins.</li>
-          <li>Writing a whole bunch of Bash scripts to build the Linux kernel
-          on various platforms.</li>
-          <li>Writing various Python scripts for the purposes of analytics and
-          programmatic interaction with Gerrit, Jira, and TeamForge.</li>
-      </ul>
+                <p>I am a Massachusetts native, currently living in Oregon with my wife, daughter, and dogs. I am a DevOps engineer at Intel's Production Kernel Team inside their Open-Source Technology Group. Currently, my job includes the following:</p>
 
-      <h2>Previous Work History</h2>
+                <ul>
+                    <li>Creating and maintaining build infrastucture with Jenkins.</li>
+                    <li>Writing a whole bunch of Bash scripts to build the Linux kernel on various platforms.</li>
+                    <li>Writing various Python scripts for the purposes of analytics and programmatic interaction with Gerrit, Jira, and TeamForge.</li>
+                </ul>
+            </div>
 
-      <ul>
-          <li>United States Marine Corps, 2009-2014 - 5954 (ATC
-          Communications Technician). I fixed all sorts of radios and other
-          communications gear for an air traffic control tower in Yuma,
-          Arizona. I also cleaned all of the things. </li>
-          <li>Intel Corporation, 2014-2018 - Failure Analysis Technician. I used an
-          electron microscope to cut pieces out of computer chips and take
-          pictures of defects. I also did a fair amount of scripting and data
-          analysis, mostly in Python.</li>
-      </ul>
-    </section>
+            <div class="section-container">
+                <h2>Previous Work History</h2>
+
+                <ul>
+                    <li>Intel Corporation, 2014-2018 - Failure Analysis Technician. I used an electron microscope to cut pieces out of computer chips and take pictures of defects. I also did a fair amount of scripting and data analysis, mostly in Python.</li>
+                    <li>United States Marine Corps, 2009-2014 - 5954 (ATC Communications Technician). I fixed all sorts of radios and other communications gear for an air traffic control tower in Yuma, Arizona. Cleaning things and yelling were also involved.
+                        </li>
+                </ul>
+            </div>
+
+            <div class="section-container">
+                <h2>Other Info</h2>
+
+                <ul>
+                    <li>B.S. in Computer Science from Portland State.</li>
+                    <li>Currently in grad school at the same.</li>
+                    <li>Interests include playing chess (poorly), cycling, weightlifting, and science fiction. I'm more basic than sodium hydroxide.</li>
+                    <li>Space and orbital mechanics are passions - I put a ton of time into Orbiter in high school, and currently play a lot of Kerbal Space Program.</li>
+                </ul>
+            </div>
+        </section>
+    </article>
 
     <footer id="footer">Mike Bottini, 2019</footer>
 
