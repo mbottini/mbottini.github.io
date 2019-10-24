@@ -92,3 +92,28 @@ h1.helvetica-text {
     background-color: rgb(108, 210, 108);
     color: rgb(17, 64, 69);
 }
+
+.button-row>button {
+    background: rgb(18, 50, 88);
+    color: white;
+    font-weight: bold;
+    padding: 0.5em 1em;
+}
+
+.button-row>.button-left {
+    float: left;
+}
+
+.button-row>.button-center {
+    display: inline;
+}
+
+.button-row>.button-right {
+    float: right;
+}
+
+.header-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+}
