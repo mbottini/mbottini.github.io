@@ -112,3 +112,14 @@ a.header-button-link:visited {
 .header-button-outer {
     padding: 0.3em;
 }
+
+a.header-button-link:hover,
+a.header-button-current {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    width: 150px;
+    box-sizing: border-box;
+}
