@@ -93,27 +93,22 @@ h1.helvetica-text {
     color: rgb(17, 64, 69);
 }
 
-.button-row>button {
-    background: rgb(18, 50, 88);
-    color: white;
+a.header-button-link,
+a.header-button-link:visited {
+    padding: 1em;
+    background-color: white;
+    color: black;
+    text-decoration: none;
     font-weight: bold;
-    padding: 0.5em 1em;
+    width: 150px;
+    box-sizing: border-box;
 }
 
-.button-row>.button-left {
-    float: left;
-}
-
-.button-row>.button-center {
-    display: inline;
-}
-
-.button-row>.button-right {
-    float: right;
-}
-
-.header-container {
-    width: 100%;
+.header-button-row {
     max-width: 600px;
-    margin: 10px auto;
+    margin: auto;
+}
+
+.header-button-outer {
+    padding: 0.3em;
 }
