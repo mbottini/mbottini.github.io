@@ -44,6 +44,11 @@ executable. You don't do it for plain ol' links to other parts of your
 website. Those are just links.
 * Getting contact form buttons to take up the proper width of the form and stay
 aligned properly.
+* Dealing with the elements in the Contact form very slightly shifting to the
+right due to the lack of scrollbar. It took me a couple hours just to figure
+out why on earth identical styles weren't being positioned in the exact same
+space, and it took some more time to figure out how to demand a scrollbar
+despite not needing it.
 
 ### A few entries from `git diff`
 
@@ -61,6 +66,8 @@ worked on.
 work projects I've worked on.
 * (Nov 1) Clean up styles further, add Javascript bindings to contact buttons.
 * (Nov 1) Change button-row display style to Flexbox. It's just so much easier.
+* (Nov 1) Add a mandatory y-scrolling scrollbar, as the size of the window
+should remain constant when clicking between pages on the site.
 
 ### Checklist of Objectives
 
