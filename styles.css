@@ -16,15 +16,6 @@ div.section-container {
     box-shadow: 0px 0px 5px 2px rgb(120, 120, 120);
 }
 
-h1.helvetica-text {
-    font-family: Helvetica;
-    text-align: center;
-    color: rgb(17, 64, 69);
-    font-size: large;
-    padding: 1em;
-    font-style: normal;
-}
-
 #entry-form>* {
     margin: 10px 15px;
     box-sizing: border-box;
@@ -70,8 +61,8 @@ h1.helvetica-text {
 }
 
 .button-row>span>button {
-    background: rgb(18, 50, 88);
-    color: white;
+    background: #dddddd;
+    color: black;
     font-family: Helvetica;
     font-weight: bold;
     width: 100%;
@@ -80,8 +71,8 @@ h1.helvetica-text {
 }
 
 .button-row>span>button:hover {
-    background-color: rgb(108, 210, 108);
-    color: rgb(17, 64, 69);
+    background-color: #333;
+    color: white;
 }
 
 a.header-button-link,
@@ -118,8 +109,6 @@ a.header-button-current {
 #entry-form {
     display: block;
     text-align: center;
-    margin: auto;
-    width: 100%;
 }
 
 footer {
