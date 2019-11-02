@@ -37,36 +37,22 @@ div.section-container {
 }
 
 .button-row {
-    width: 100%;
-    display: table;
+    display: flex;
     margin: auto;
 }
 
-.span-left {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    width: 50%;
-    padding: 1em 1em 1em 3em;
-    box-sizing: border-box;
-}
-
-.span-right {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    width: 50%;
-    padding: 1em 3em 1em 1em;
+.button-row > span {
+    flex: 1;
+    padding: 0.5em 1.5em;
     box-sizing: border-box;
 }
 
 .button-row>span>button {
     background: #dddddd;
     color: black;
-    font-family: Helvetica;
     font-weight: bold;
     width: 100%;
-    padding: 0.5em 1em;
+    padding: 0.75em 1em;
     margin: auto;
 }
 
